@@ -1,0 +1,67 @@
+/* ---------------- bottom card custom css ----------------- */
+.bottom-card{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* spacing out the completion status element and the btn */
+
+.bottom-card .completing-status{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* completion status element */
+
+.bottom-card .completing-status .mini-title{
+    font-size: 0.8rem;
+    margin:0;
+}
+
+.bottom-card .completing-status .value{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin:0;
+}
+
+/* custom btn color */
+
+.bottom-card .btn{
+    background-color: #4a779e;
+}
+
+
+
+
+/* ---------------- inside image custom css ----------------- */
+
+.image-container{
+    position: relative;
+}
+
+.card-img-overlay {
+    color: white;
+}
+
+.card-img-overlay .time-indicator{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 0.8rem;
+}
+
+.card-img-overlay .overdue-warning{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #822930!important;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
